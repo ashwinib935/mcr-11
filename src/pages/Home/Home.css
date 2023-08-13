@@ -1,0 +1,20 @@
+.movie-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.btn-action{
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(41, 39, 39);
+    cursor: pointer;
+}
+.movie-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}

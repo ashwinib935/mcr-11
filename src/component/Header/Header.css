@@ -1,0 +1,22 @@
+.header{
+    padding: 1rem;
+    color: white;
+    background-color: rgb(41, 39, 39);
+
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    padding-inline: 0.5rem;
+}
+.search-input{
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 300px;
+    border: none;
+    outline: none;
+}

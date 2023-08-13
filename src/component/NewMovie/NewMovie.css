@@ -1,0 +1,13 @@
+
+.newmovie{
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    background-color: white;
+    border: 1px solid;
+}
+.newmovie-form {
+    display: flex;
+    flex-direction: column;
+    gap:1rem
+}

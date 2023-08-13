@@ -1,0 +1,23 @@
+.movie-detail{
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:  0 0 7px lightgray;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 2rem auto
+}
+.movie-detail img{
+    width: 200px;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}

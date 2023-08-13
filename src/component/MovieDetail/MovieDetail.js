@@ -52,7 +52,7 @@ function MovieDetail() {
                 className="btn-action"
                 onClick={() => handleRemoveStar(selectedMovie.id)}
               >
-                Starred
+                Unstar
               </button>
             ) : (
               <button
@@ -67,7 +67,7 @@ function MovieDetail() {
                 className="btn-action"
                 onClick={() => handleRemoveWatchList(selectedMovie.id)}
               >
-                Added to Watchlist
+                Remove from watchlist
               </button>
             ) : (
               <button
